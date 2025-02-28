@@ -1,0 +1,28 @@
+.filtro {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .filtro button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filtro button:hover {
+    background-color: #516388;
+  }
+  
+  .filtro button.active {
+    background-color: #000000;
+  }
+
+   
+  
